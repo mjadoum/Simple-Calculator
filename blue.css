@@ -1,0 +1,202 @@
+body {
+	background:#ECEDEF!important;
+	margin: 0!important;
+	padding: 0!important;
+}
+.h3h{
+	font-size: 20px!important;
+	margin-left:0%!important;
+	margin-top: 2%!important;
+}
+.red-mood{
+	width: 40px;
+  	height: 40px;
+	font-size: 15px;
+	line-height: 30px;
+	border-radius:50%;
+	font-weight: 700;
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+	border: none;
+	background: firebrick;
+margin-top:5%;
+	margin-left:33%;
+}
+.red-mood:hover{
+	background: tomato;
+}
+
+.green-mood{
+	width: 40px;
+  	height: 40px;
+	font-size: 15px;
+	line-height: 30px;
+	border-radius:50%;
+	font-weight: 700;
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+	border: none;
+	background:mediumseagreen;
+	margin-top:5%;
+margin-left: -4%;
+}
+.green-mood:hover{
+	background: #38d39f;
+}
+.blue-mood{
+	width: 40px!important;
+	height: 40px!important;
+	font-size:15px!important;
+	line-height: 30px!important;
+	border-radius:50%!important;
+	font-weight: 700!important;
+	padding: 10px!important;
+	color: white!important;
+	cursor: pointer!important;
+	border: none!important;
+	background:dodgerblue!important;
+	margin-left:-3%!important;
+}
+.blue-mood:hover{
+	background: deepskyblue!important;
+}
+.img{
+  width: 270px!important;
+margin-top: 4%!important;
+
+}
+.disply {
+	width: 100%!important;
+	height: 25px!important;
+	padding: 40px 0!important;
+  margin-top: -10%!important;
+	background: deepskyblue!important;
+	border-radius: 7px!important;
+
+}
+.section-form{
+text-align: center!important;
+margin-top:15%!important;
+}
+
+#section-table{
+text-align: center!important;
+margin-top: -65%!important;
+margin-left: -6.5%!important;
+}
+td{
+  width: 40px!important;
+  padding: 3px!important;
+}
+.btn{
+  width: 60px!important;
+  	height: 60px!important;
+  	float: left!important;
+  	padding: 0!important;
+  	margin: 5px!important;
+  	box-sizing: border-box!important;
+  	background: #ecedef!important;
+  	border: none!important;
+  	font-size: 30px!important;
+  	line-height: 30px!important;
+  	border-radius: 50%!important;
+  	font-weight: 700;
+  	color: #5E5858!important;
+  	cursor: pointer!important;
+}
+.inputtext{
+  width: 260px!important;
+	height: 50px!important;
+	float: left!important;
+	padding: 0!important;
+  padding-right: 25px!important;
+	box-sizing: border-box!important;
+	border: none!important;
+	background: none!important;
+	color: #ffffff!important;
+	text-align: right!important;
+	font-weight: 700!important;
+	font-size: 45px!important;
+	line-height: 60px!important;
+	margin: 0 25px!important;
+	margin-top: -10%!important;
+
+}
+
+.btn:hover{
+background-color:slategray!important;
+color: white!important;
+}
+.btn1{
+  width: 60px!important;
+    height: 60px!important;
+    float: left!important;
+    padding: 0!important;
+    margin: 5px!important;
+    box-sizing: border-box!important;
+  	background:dodgerblue!important;
+    border: none!important;
+    font-size: 30px!important;
+    line-height: 30px!important;
+    border-radius: 50%!important;
+    font-weight: 700!important;
+    color: white!important;
+    cursor: pointer!important;
+  }
+
+.btn1:hover{
+	background: deepskyblue!important;
+color: white!important;
+}
+span{
+  text-align: center!important;
+  padding-top: -20px!important;
+  font-size:40px!important;
+  color:tomato!important;
+	margin-left: 20%!important;
+
+}
+
+#calculator{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2)!important;
+  background-color: snow!important;
+  width: 300px!important;
+  height: 500px!important;
+margin-left: 40%!important;
+  padding-left:15px!important;
+  padding-right:15px!important;
+  padding-bottom:15px!important;
+//  margin-top: 4%!important;
+  border-radius: 20px!important;
+}
+@media(max-width:900px){
+  #section-table{
+  text-align: center;
+  margin-top: -20%;
+  }
+  #calculator{
+
+    margin-left: 15%;
+
+    margin-top: 45px;
+    padding-top: 20;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:5px;
+  }
+  #section-table{
+  text-align: center;
+  margin-top: -40%;
+  }
+  .section-form{
+  text-align: center;
+  margin-top:10%;
+  }
+
+
+
+
+
+}
